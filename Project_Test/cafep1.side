@@ -1,0 +1,787 @@
+{
+  "id": "d94faec8-c90b-4d35-915b-ae7d36ef654b",
+  "version": "2.0",
+  "name": "test_webcafe",
+  "url": "http://store.nhanh.vn/demo?id=199",
+  "tests": [{
+    "id": "eb0bfe56-e928-4b95-b61c-78407b758d2d",
+    "name": "test1",
+    "commands": [{
+      "id": "5d27e73a-7575-4644-971c-75b5773853e8",
+      "comment": "",
+      "command": "open",
+      "target": "http://store.nhanh.vn/demo?id=199",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ad7876c-38b6-4a3a-9c5e-ac96a4aff8b2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "856x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba714ac5-8ce5-4c39-aa70-f13da6cabaa8",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "490868ac-1227-4cbc-bbc0-3ffd092aaa67",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_name",
+      "targets": [
+        ["id=customer_name", "id"],
+        ["linkText=Đăng ký", "linkText"],
+        ["css=#customer_name", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký')]", "xpath:link"],
+        ["xpath=//a[@id='customer_name']", "xpath:attributes"],
+        ["xpath=//div[@id='topnav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/user/signup')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9c630c2-b58f-4241-be6d-dc1f8d8fea33",
+      "comment": "",
+      "command": "click",
+      "target": "id=fullName",
+      "targets": [
+        ["id=fullName", "id"],
+        ["name=fullName", "name"],
+        ["css=#fullName", "css:finder"],
+        ["xpath=//input[@id='fullName']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5143743c-680a-4b74-9797-72e02157629a",
+      "comment": "",
+      "command": "type",
+      "target": "id=fullName",
+      "targets": [
+        ["id=fullName", "id"],
+        ["name=fullName", "name"],
+        ["css=#fullName", "css:finder"],
+        ["xpath=//input[@id='fullName']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "tran le tan duc"
+    }, {
+      "id": "7d6fa46f-bd1f-47ff-8778-89337e28b7df",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83ddbeb3-307d-4ef5-ba2d-0f09b60d2b1e",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "tanductranle171@gmail.com"
+    }, {
+      "id": "b6d04981-ef5e-456e-88c0-ac61d92d174d",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b85220d0-1de9-4abb-bef4-58667dc33f63",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "f8d041ee-10db-42ca-8e9c-e13ad27ca6d2",
+      "comment": "",
+      "command": "click",
+      "target": "name=mobile",
+      "targets": [
+        ["name=mobile", "name"],
+        ["css=li > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li[4]/input", "xpath:idRelative"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21a7aa4e-467b-4476-a7f3-48c3cc1cf774",
+      "comment": "",
+      "command": "type",
+      "target": "name=mobile",
+      "targets": [
+        ["name=mobile", "name"],
+        ["css=li > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li[4]/input", "xpath:idRelative"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": "0967012926"
+    }, {
+      "id": "0135003e-2668-47d6-b606-ab625c60ce69",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmit",
+      "targets": [
+        ["id=btnSubmit", "id"],
+        ["name=submit", "name"],
+        ["css=#btnSubmit", "css:finder"],
+        ["xpath=//input[@id='btnSubmit']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76a4f43d-b0ea-432d-90e6-e009784ef245",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.errors > li",
+      "targets": [
+        ["css=.errors > li", "css:finder"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li[2]/ul/li", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li", "xpath:position"]
+      ],
+      "value": "Email này đã được sử dụng"
+    }, {
+      "id": "3a100c32-3d10-48a0-8d34-3200efaa8304",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f620afd4-109c-4ce9-9b86-34abbe3f667b",
+    "name": "test2",
+    "commands": [{
+      "id": "9a581dd5-8b1c-437a-a68f-942986a1d6e4",
+      "comment": "",
+      "command": "open",
+      "target": "http://store.nhanh.vn/demo?id=199",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8811f3c0-c96a-43af-b6fa-4d0c071a8807",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "856x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "954f15f0-1b48-4945-8fa8-37b8fdaf0cf9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "18f253ea-b9ad-48f4-8171-89ea84b9824c",
+      "comment": "",
+      "command": "click",
+      "target": "id=not_login",
+      "targets": [
+        ["id=not_login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#not_login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='not_login']", "xpath:attributes"],
+        ["xpath=//div[@id='topnav']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/user/signin')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44188595-22c7-4afc-8de2-0228a32b84ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "tanductranle171@gmail.com"
+    }, {
+      "id": "b7e3b6f5-5cb8-42bc-95e4-3b81d383acfd",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a11cd42-fd39-46b3-9432-dd2ec135c34f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "1234567"
+    }, {
+      "id": "a175de53-608a-4b17-bb46-bfb16e0b2b0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmit",
+      "targets": [
+        ["id=btnSubmit", "id"],
+        ["name=submit", "name"],
+        ["css=#btnSubmit", "css:finder"],
+        ["xpath=//input[@id='btnSubmit']", "xpath:attributes"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e0372ab-bb14-45fe-bac6-d5c1da445e38",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.errors > li",
+      "targets": [
+        ["css=.errors > li", "css:finder"],
+        ["xpath=//div[@id='product_list_loading_contain']/form/ul/li/ul/li", "xpath:idRelative"],
+        ["xpath=//li/ul/li", "xpath:position"]
+      ],
+      "value": "Tên đăng nhập hoặc mật khẩu không chính xác"
+    }, {
+      "id": "a1897671-c828-42b7-b9ad-f6210855ea3f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "201f704f-0a1e-44a9-b2a8-972b5d90a6af",
+    "name": "test3",
+    "commands": [{
+      "id": "f1952b12-cadc-4a13-ab47-3d449a2b7847",
+      "comment": "",
+      "command": "open",
+      "target": "http://store.nhanh.vn/demo?id=199",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "740ff113-73bd-4d68-ae27-e9d8c1ec7248",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef24f6c0-0edb-4d42-86f8-287d1ad7b515",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7e4853b-0c6d-40b3-ae47-f0d6a07d40a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover .product-img",
+      "targets": [
+        ["css=.hover .product-img", "css:finder"],
+        ["xpath=//img[@alt='Cocktail 3']", "xpath:img"],
+        ["xpath=//ul[@id='featured_grid']/li/div/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcbc94fb-71b4-41fd-ba51-2337b51acc0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=addToCart",
+      "targets": [
+        ["id=addToCart", "id"],
+        ["css=#addToCart", "css:finder"],
+        ["xpath=//button[@id='addToCart']", "xpath:attributes"],
+        ["xpath=//form[@id='product_addtocart_form']/div[2]/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "168787b5-4eb2-4c4c-90cf-840a8a6e1068",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pull-right > .btn",
+      "targets": [
+        ["css=.pull-right > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//table[@id='shopping-cart-table']/tfoot/tr/td/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0b74077-7c98-481e-9b63-76468011cc7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=rdPaymentMethodCod",
+      "targets": [
+        ["id=rdPaymentMethodCod", "id"],
+        ["name=paymentMethod", "name"],
+        ["css=#rdPaymentMethodCod", "css:finder"],
+        ["xpath=//input[@id='rdPaymentMethodCod']", "xpath:attributes"],
+        ["xpath=//dl[@id='checkout-payment-method-load']/dt/input", "xpath:idRelative"],
+        ["xpath=//dt/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14ef8e40-46c8-4a8a-86ec-2de9fd82d3a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnOrder > span > span",
+      "targets": [
+        ["css=#btnOrder > span > span", "css:finder"],
+        ["xpath=//button[@id='btnOrder']/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ccdeb83-d3d9-41ad-b2ee-f0a90612662e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.oderComplete > h2",
+      "targets": [
+        ["css=.oderComplete > h2", "css:finder"],
+        ["xpath=//div[@id='orderView']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Đặt hàng thành công')]", "xpath:innerText"]
+      ],
+      "value": "Đặt hàng thành công"
+    }, {
+      "id": "70a7af4d-0ddc-43bb-b035-37d7ad6da599",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1030a68d-9efd-4c21-a0d6-398849641c41",
+    "name": "test4",
+    "commands": [{
+      "id": "bae021bd-69c4-455b-8124-63924ac08df2",
+      "comment": "",
+      "command": "open",
+      "target": "http://store.nhanh.vn/demo?id=199",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65c928ac-faba-41fb-ad8e-3c570c80a4dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26bfcc16-17f4-4e80-a08d-88004c955f1b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef8ae525-c45d-4211-a9b2-0a85e4f02f0c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MÓN ĂN",
+      "targets": [
+        ["linkText=MÓN ĂN", "linkText"],
+        ["css=.active-hover > .level-0", "css:finder"],
+        ["xpath=//a[contains(text(),'MÓN ĂN')]", "xpath:link"],
+        ["xpath=//ul[@id='mobile']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mon-an-pc44009.html')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MÓN ĂN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bde0e00-4473-419c-8d55-a6e49c27041e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .fa",
+      "targets": [
+        ["css=li:nth-child(2) .fa", "css:finder"],
+        ["xpath=//body[@id='bodyHome']/div[3]/div/div[2]/div/div/div[2]/ul/li[2]/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d85e6f91-4edc-4134-b9ad-528241113628",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=ravioli nhân khoai lang",
+      "targets": [
+        ["linkText=ravioli nhân khoai lang", "linkText"],
+        ["css=.product-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ravioli nhân khoai lang')]", "xpath:link"],
+        ["xpath=//body[@id='bodyHome']/div[3]/div/div[2]/div[2]/div[2]/div[2]/ul/li/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ravioli-nhan-khoai-lang-p1369582.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ravioli nhân khoai lang')]", "xpath:innerText"]
+      ],
+      "value": "ravioli nhân khoai lang"
+    }, {
+      "id": "d15341f8-3825-4b27-8d41-69dc6e320f82",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "87798606-c161-46f4-80bc-950a8124599e",
+    "name": "test5",
+    "commands": [{
+      "id": "8caf9f06-499a-4a32-adaa-854fa81ca953",
+      "comment": "",
+      "command": "open",
+      "target": "http://store.nhanh.vn/demo?id=199",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10d248ff-351c-4fde-861e-5b90c7dfdc59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "856x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ec1c26d-69c2-4586-a27f-2bc0538a138b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ad9d909-e8a3-416a-8d05-62b6c83a52ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_search_value",
+      "targets": [
+        ["id=txt_search_value", "id"],
+        ["name=q", "name"],
+        ["css=#txt_search_value", "css:finder"],
+        ["xpath=//input[@id='txt_search_value']", "xpath:attributes"],
+        ["xpath=//div[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b850f9d-d962-4f97-aac5-63f00a0bfbb4",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_search_value",
+      "targets": [
+        ["id=txt_search_value", "id"],
+        ["name=q", "name"],
+        ["css=#txt_search_value", "css:finder"],
+        ["xpath=//input[@id='txt_search_value']", "xpath:attributes"],
+        ["xpath=//div[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "WWW"
+    }, {
+      "id": "a1c5c416-e938-4dcc-85a5-916e5253d38a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=txt_search_value",
+      "targets": [
+        ["id=txt_search_value", "id"],
+        ["name=q", "name"],
+        ["css=#txt_search_value", "css:finder"],
+        ["xpath=//input[@id='txt_search_value']", "xpath:attributes"],
+        ["xpath=//div[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7d2819c8-d453-473f-b0c1-f5f199418df4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.page-title > .group_title",
+      "targets": [
+        ["css=.page-title > .group_title", "css:finder"],
+        ["xpath=//body[@id='bodyHome']/div[3]/div/div[2]/div[2]/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "CÓ 0 KẾT QUẢ TÌM KIẾM VỚI TỪ KHÓA: WWW"
+    }, {
+      "id": "62b0f6e1-1691-4f9c-9338-74c211f06595",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "10e08ef1-fae9-4625-acc2-9d96ab7ef3c9",
+    "name": "test6",
+    "commands": [{
+      "id": "8da34adf-6f76-4af0-b2e6-f8369a85c279",
+      "comment": "",
+      "command": "open",
+      "target": "http://store.nhanh.vn/demo?id=199",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf660a41-c907-4372-8623-c9132d507d0d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "856x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2d3cb01-2f37-44db-85b2-f6978559ea5c",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "a82bd53d-a26e-422c-8594-f6392547ce3d",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_search_value",
+      "targets": [
+        ["id=txt_search_value", "id"],
+        ["name=q", "name"],
+        ["css=#txt_search_value", "css:finder"],
+        ["xpath=//input[@id='txt_search_value']", "xpath:attributes"],
+        ["xpath=//div[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67ab1db1-0a00-4493-b2a0-a4a9b1c04ebc",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_search_value",
+      "targets": [
+        ["id=txt_search_value", "id"],
+        ["name=q", "name"],
+        ["css=#txt_search_value", "css:finder"],
+        ["xpath=//input[@id='txt_search_value']", "xpath:attributes"],
+        ["xpath=//div[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "11"
+    }, {
+      "id": "5686f559-f521-4646-8aa6-6789799c65a1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=txt_search_value",
+      "targets": [
+        ["id=txt_search_value", "id"],
+        ["name=q", "name"],
+        ["css=#txt_search_value", "css:finder"],
+        ["xpath=//input[@id='txt_search_value']", "xpath:attributes"],
+        ["xpath=//div[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5d72d8d7-db2f-43c6-b88d-3be599181842",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Cocktail 11",
+      "targets": [
+        ["linkText=Cocktail 11", "linkText"],
+        ["css=.hover > .product-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cocktail 11')]", "xpath:link"],
+        ["xpath=//body[@id='bodyHome']/div[3]/div/div[2]/div[2]/div[2]/div[2]/ul/li/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cocktail-11-p1388795.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cocktail 11')]", "xpath:innerText"]
+      ],
+      "value": "Cocktail 11"
+    }, {
+      "id": "143fb32d-8560-45df-895f-56859e427069",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=piza11",
+      "targets": [
+        ["linkText=piza11", "linkText"],
+        ["css=.hover > .product-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'piza11')]", "xpath:link"],
+        ["xpath=//body[@id='bodyHome']/div[3]/div/div[2]/div[2]/div[2]/div[2]/ul/li[2]/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/piza11-p1369647.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'piza11')]", "xpath:innerText"]
+      ],
+      "value": "piza11"
+    }, {
+      "id": "f0869e57-5ed6-4b44-b0be-9d9a5fac294a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Cốc sứ 11",
+      "targets": [
+        ["linkText=Cốc sứ 11", "linkText"],
+        ["css=.hover > .product-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cốc sứ 11')]", "xpath:link"],
+        ["xpath=//body[@id='bodyHome']/div[3]/div/div[2]/div[2]/div[2]/div[2]/ul/li[3]/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/coc-su-11-p1366605.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cốc sứ 11')]", "xpath:innerText"]
+      ],
+      "value": "Cốc sứ 11"
+    }, {
+      "id": "3c971770-933f-45b0-b9e0-3bd8df4e6ac6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Café rang xay 11",
+      "targets": [
+        ["linkText=Café rang xay 11", "linkText"],
+        ["css=.hover > .product-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Café rang xay 11')]", "xpath:link"],
+        ["xpath=//body[@id='bodyHome']/div[3]/div/div[2]/div[2]/div[2]/div[2]/ul/li[4]/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cafe-rang-xay-11-p1365431.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Café rang xay 11')]", "xpath:innerText"]
+      ],
+      "value": "Café rang xay 11"
+    }, {
+      "id": "ef2dbb0b-34cf-4fba-b6f9-7ba5bb531d64",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Đẳng cấp phái mạnh 11",
+      "targets": [
+        ["linkText=Đẳng cấp phái mạnh 11", "linkText"],
+        ["css=.hover > .product-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Đẳng cấp phái mạnh 11')]", "xpath:link"],
+        ["xpath=//body[@id='bodyHome']/div[3]/div/div[2]/div[2]/div[2]/div[2]/ul/li[5]/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/dang-cap-phai-manh-11-p1365329.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đẳng cấp phái mạnh 11')]", "xpath:innerText"]
+      ],
+      "value": "Đẳng cấp phái mạnh 11"
+    }, {
+      "id": "74099d2d-17cf-4a03-a0a2-17f221fe8891",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Sản phẩm thời thượng11",
+      "targets": [
+        ["linkText=Sản phẩm thời thượng11", "linkText"],
+        ["css=.hover > .product-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sản phẩm thời thượng11')]", "xpath:link"],
+        ["xpath=//body[@id='bodyHome']/div[3]/div/div[2]/div[2]/div[2]/div[2]/ul/li[6]/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/san-pham-thoi-thuong11-p1365305.html')])[2]", "xpath:href"],
+        ["xpath=//li[6]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sản phẩm thời thượng11')]", "xpath:innerText"]
+      ],
+      "value": "Sản phẩm thời thượng11"
+    }, {
+      "id": "df3da625-7f7b-4e6a-8301-1c08648112f8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Sản phẩm cao cấp 11",
+      "targets": [
+        ["linkText=Sản phẩm cao cấp 11", "linkText"],
+        ["css=.hover > .product-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sản phẩm cao cấp 11')]", "xpath:link"],
+        ["xpath=//body[@id='bodyHome']/div[3]/div/div[2]/div[2]/div[2]/div[2]/ul/li[7]/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/san-pham-cao-cap-11-p1365287.html')])[2]", "xpath:href"],
+        ["xpath=//li[7]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sản phẩm cao cấp 11')]", "xpath:innerText"]
+      ],
+      "value": "Sản phẩm cao cấp 11"
+    }, {
+      "id": "db3db712-37e6-471b-b3d3-319396278731",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Sản phẩm đặt biệt11",
+      "targets": [
+        ["linkText=Sản phẩm đặt biệt11", "linkText"],
+        ["css=.hover > .product-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sản phẩm đặt biệt11')]", "xpath:link"],
+        ["xpath=//body[@id='bodyHome']/div[3]/div/div[2]/div[2]/div[2]/div[2]/ul/li[8]/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/san-pham-dat-biet11-p1365249.html')])[2]", "xpath:href"],
+        ["xpath=//li[8]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sản phẩm đặt biệt11')]", "xpath:innerText"]
+      ],
+      "value": "Sản phẩm đặt biệt11"
+    }, {
+      "id": "496599fc-c592-4bd5-85ad-216c4874d28e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c07cdb9c-675b-48ca-baba-70b84f11d471",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://store.nhanh.vn/", "http://store.nhanh.vn/demo?id=199"],
+  "plugins": []
+}
